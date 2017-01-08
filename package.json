@@ -1,0 +1,18 @@
+{
+  "name": "nodecliapp",
+  "version": "0.0.1",
+  "description": "A CLI application Creating a webserver",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "main": "app.js",
+  "author": "Akhilanand Singh",
+  "license": "MIT",
+  "preferGlobal": true,
+  "bin": {
+       "myhello": "./hello.js",
+       "myhttp"  : "./app.js"
+   },
+   "dependencies": {
+  }
+}
